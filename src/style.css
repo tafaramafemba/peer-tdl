@@ -1,5 +1,11 @@
+:root {
+  --charcgrey: #808080;
+}
+
 body {
   background-color: #efefef;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .list {
@@ -17,7 +23,6 @@ body {
 }
 
 .to-do {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
@@ -26,7 +31,6 @@ body {
 }
 
 h1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 25px;
   font-weight: normal;
   margin-top: 0;
@@ -39,7 +43,6 @@ h1 {
 }
 
 #myInput {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
   font-style: italic;
   border: none;
@@ -49,20 +52,19 @@ h1 {
 }
 
 .clear-btn {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border-radius: 0;
   width: 100%;
   font-size: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   border: none;
-  color: #808080;
+  color: var(--charcgrey);
 }
 
 hr {
   margin: 0;
   width: 100%;
-  color: #808080;
+  color: var(--charcgrey);
 }
 
 .refresh {
@@ -90,7 +92,7 @@ hr {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #808080;
+  border-bottom: 1px solid var(--charcgrey);
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -99,7 +101,6 @@ hr {
   justify-content: space-between;
   color: #000;
   list-style: none;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
   align-items: center;
 }
@@ -116,7 +117,6 @@ hr {
 }
 
 .label-input {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border: none;
   font-size: 20px;
   height: 50px;
@@ -128,7 +128,6 @@ hr {
 }
 
 .checked-check-btn {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border: none;
   font-size: 20px;
   height: 50px;
