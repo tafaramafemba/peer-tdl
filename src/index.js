@@ -27,7 +27,9 @@ enter.addEventListener('click', (e) => {
   e.preventDefault();
   const chore = document.getElementById('myInput').value;
   if (!chore) {
-    alert('missing information');
+    error.style.color = 'red';
+    error.style.gridColumn = '2/3';
+    error.textContent = 'Missing Information';
   } else {
     awesome.addRecord(chore);
     awesome.local();
